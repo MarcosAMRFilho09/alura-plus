@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -129,7 +129,7 @@ body {
     margin-top: 1em;
 }
 
-.lista__link a {
+.lista__link a{
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
@@ -152,42 +152,4 @@ body {
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
-}
-
-@media screen and (max-width: 768px) {
-
-    /* 1º sessão */
-    .container {
-        display: block;
-        background-position: bottom;
-    }
-
-    .container__caixa {
-        margin: 0 2em;
-        padding: 2em 0;
-    }
-
-    .container__imagem {
-        width: 50vw;
-    }
-
-    /* 2º sessão */
-    .secundario {
-        margin: 0;
-        text-align: center;
-    }
-
-    .secundario__imagem {
-        width: 50vw;
-    }
-
-    /* dispositivos */
-    .dispositivos__lista {
-        display: block;
-    }
-
-    /* footer */
-    .rodape__lista {
-        display: block;
-    }
 }

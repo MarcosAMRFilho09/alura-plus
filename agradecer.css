@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(57, 40, 167), rgb(18, 22, 24));
+}
+.centro { 
+text-align: center;
+color: aliceblue;
+margin-top: 15%;
+color: whitesmoke;
+
+}
